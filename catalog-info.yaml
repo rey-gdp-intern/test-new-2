@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-new-2"
+  annotations:
+    google.com/cloudbuild-project-slug: 'intern-infra'
+    google.com/cloudbuild-repo-name: rey-gdp-intern/test-new-2
+spec:
+  type: service
+  owner: group:sre
+  lifecycle: experimental
